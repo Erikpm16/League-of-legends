@@ -16,6 +16,18 @@
     --red: #CF3C3F;
   }
 
+  .wallpaper{
+    width: 80%;
+    background-image: url('./images/wallpaper-client.jpg');
+    background-size: cover;
+    background-position: left;
+    padding: clamp(10px, 8%, 200px);
+}
+
+.main{
+display: flex;
+}
+
 .client{
     display: flex;
     flex-direction: column;
@@ -28,14 +40,5 @@
     background-color: #1B77F3;
 }
 
-.main{
-    display: flex;
-}
 
-.wallpaper{
-    width: 100%;
-    background-image: url('./images/wallpaper-client.jpg');
-    background-size: cover;
-    background-position: center;
-    flex: 1;
-}
+
