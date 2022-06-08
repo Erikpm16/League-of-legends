@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root{
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+  }
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+    background-color: #1B77F3;
+}
+
+.main{
+    display: flex;
+}
+
+.wallpaper{
+    width: 100%;
+    background-image: url('./images/wallpaper-client.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
